@@ -1,4 +1,4 @@
-# Simple Asset Management by Naz 30.05.2020
+# Simple Asset Management by Naz 30.05.2020 v0.7
 
 # Get the Json package/library
 import json
@@ -42,7 +42,7 @@ def AssetOwners():
         for key in Staff:
             Name = key['name']
             if key['id'] == OwnerID:
-                print(Name[0],Name[1],"is the owner of ", AssetName,AssetType)
+                print(Name[0],Name[1],"is the owner of the", AssetName,AssetType)
     
     
 def showstaff():
