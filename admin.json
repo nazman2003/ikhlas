@@ -1,0 +1,777 @@
+{
+    "staff": [
+        {
+            "id": "TP9310",
+            "name": [
+                "Lisa",
+                "Xu"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": true
+        },
+        {
+            "id": "TP9095",
+            "name": [
+                "Lisa",
+                "Perez"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "TP9722",
+            "name": [
+                "Mary-Jo",
+                "Ullman"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": true
+        },
+        {
+            "id": "TP10712",
+            "name": [
+                "Hisham",
+                "O'Donnell"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "TP10386",
+            "name": [
+                "Nin\u00c3\u00a1",
+                "Miller"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "TP10022",
+            "name": [
+                "Lisa",
+                "Lopez"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "TP8931",
+            "name": [
+                "Lisa",
+                "Miller"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "TP10610",
+            "name": [
+                "Ren\u00c3\u00a9e",
+                "Ullman"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": true
+        },
+        {
+            "id": "TP8982",
+            "name": [
+                "Mary-Jo",
+                "Evans"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "TP10187",
+            "name": [
+                "\u00c3\u02dcyvind",
+                "Perez"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "TP9612",
+            "name": [
+                "Priti",
+                "Flores"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "TP9201",
+            "name": [
+                "Gareth",
+                "Clark"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "TP9484",
+            "name": [
+                "Gareth",
+                "Xu"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "TP9827",
+            "name": [
+                "Lisa",
+                "Lopez"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        }
+    ],
+    "assets": [
+        {
+            "asset_name": "KOOL MONGOOSE",
+            "asset_type": "File",
+            "owner": "TP9484",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MODERATE",
+                        "MODERATE",
+                        "MODERATE"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 1
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "FRIENDLY DEER",
+                "ip": [
+                    10,
+                    234,
+                    95,
+                    223
+                ]
+            }
+        },
+        {
+            "asset_name": "TARDY DEER",
+            "asset_type": "File",
+            "owner": "TP10712",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MODERATE",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "GOLDEN KINGFISHER",
+                "ip": [
+                    10,
+                    234,
+                    210,
+                    177
+                ]
+            }
+        },
+        {
+            "asset_name": "EXCESS KINGFISHER",
+            "asset_type": "File",
+            "owner": "TP8968",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "HIGH",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "TRUTHFUL WALRUS",
+                "ip": [
+                    10,
+                    234,
+                    150,
+                    254
+                ]
+            }
+        },
+        {
+            "asset_name": "BETTER MONGOOSE",
+            "asset_type": "File",
+            "owner": "TP10656",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "HIGH",
+                        "MODERATE"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "BROKEN JACKAL",
+                "ip": [
+                    10,
+                    234,
+                    43,
+                    235
+                ]
+            }
+        },
+        {
+            "asset_name": "LONELY UGUISU",
+            "asset_type": "Server",
+            "owner": "TP9936",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MODERATE",
+                        "MODERATE",
+                        "MODERATE"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Bromley",
+                    "address": [
+                        "71, West Street",
+                        "BR0 6YL"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    234,
+                    66,
+                    66
+                ]
+            }
+        },
+        {
+            "asset_name": "FURRY RHINO",
+            "asset_type": "File",
+            "owner": "TP10656",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "HIGH",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 5
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "FURRY DEER",
+                "ip": [
+                    10,
+                    234,
+                    226,
+                    139
+                ]
+            }
+        },
+        {
+            "asset_name": "FRIENDLY RHINO",
+            "asset_type": "Physical Media",
+            "owner": "TP10022",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 2,
+                "location": {
+                    "category": "Office",
+                    "place": "Bromley",
+                    "address": [
+                        "71, West Street",
+                        "BR0 6YL"
+                    ]
+                }
+            },
+            "media_type": "CD",
+            "encryption": {
+                "cipher": "3DES",
+                "keylength": 112
+            }
+        },
+        {
+            "asset_name": "QUIXOTIC MONGREL",
+            "asset_type": "File",
+            "owner": "TP9612",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "MODERATE"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 2
+            },
+            "file_type": "Database",
+            "server": {
+                "server_name": "USEFUL DEER",
+                "ip": [
+                    10,
+                    234,
+                    98,
+                    78
+                ]
+            }
+        },
+        {
+            "asset_name": "MIGHTY HIPPO",
+            "asset_type": "Server",
+            "owner": "TP9385",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "HIGH",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Jersey",
+                    "address": [
+                        "26, Victoria Street",
+                        "JE7 3XF"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    234,
+                    234,
+                    30
+                ]
+            }
+        },
+        {
+            "asset_name": "ROYAL HIPPO",
+            "asset_type": "File",
+            "owner": "TP9580",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "MODERATE",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Database",
+            "server": {
+                "server_name": "MIGHTY SLOTH",
+                "ip": [
+                    10,
+                    234,
+                    162,
+                    32
+                ]
+            }
+        },
+        {
+            "asset_name": "LONELY TRICERATOPS",
+            "asset_type": "Physical Media",
+            "owner": "TP10656",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MODERATE",
+                        "HIGH",
+                        "MODERATE"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5,
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Oxford",
+                    "address": [
+                        "34, Main Street",
+                        "OX3 5AE"
+                    ]
+                }
+            },
+            "media_type": "USB Stick"
+        },
+        {
+            "asset_name": "GLAD ANT",
+            "asset_type": "File",
+            "owner": "TP9827",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Document",
+            "server": {
+                "server_name": "PRETTY TRICERATOPS",
+                "ip": [
+                    10,
+                    234,
+                    248,
+                    75
+                ]
+            }
+        },
+        {
+            "asset_name": "VACCINATED DEER",
+            "asset_type": "Server",
+            "owner": "TP10187",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "MODERATE",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Jersey",
+                    "address": [
+                        "26, Victoria Street",
+                        "JE7 3XF"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    234,
+                    59,
+                    116
+                ]
+            }
+        },
+        {
+            "asset_name": "JUMPY IBIS",
+            "asset_type": "File",
+            "owner": "TP9310",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "LOW",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "ISOLATED VIPER",
+                "ip": [
+                    10,
+                    234,
+                    212,
+                    78
+                ]
+            }
+        },
+        {
+            "asset_name": "ORIGINAL OSTRICH",
+            "asset_type": "File",
+            "owner": "TP9626",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "MODERATE",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 2
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "ANGRY PANDA",
+                "ip": [
+                    10,
+                    234,
+                    238,
+                    47
+                ]
+            }
+        },
+        {
+            "asset_name": "FRIENDLY HIPPO",
+            "asset_type": "File",
+            "owner": "TP10270",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "FURRY DEER",
+                "ip": [
+                    10,
+                    234,
+                    117,
+                    220
+                ]
+            }
+        },
+        {
+            "asset_name": "PROUD QUETZAL",
+            "asset_type": "File",
+            "owner": "TP10610",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "MODERATE",
+                        "MODERATE"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 5
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "FRIENDLY VIPER",
+                "ip": [
+                    10,
+                    234,
+                    221,
+                    94
+                ]
+            }
+        },
+        {
+            "asset_name": "PRETTY RHINO",
+            "asset_type": "File",
+            "owner": "TP9580",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 5
+            },
+            "file_type": "Database",
+            "server": {
+                "server_name": "TRUTHFUL IBIS",
+                "ip": [
+                    10,
+                    234,
+                    227,
+                    60
+                ]
+            }
+        },
+        {
+            "asset_name": "VACCINATED MONGOOSE",
+            "asset_type": "File",
+            "owner": "TP8968",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MODERATE",
+                        "LOW",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 1
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "ANGRY PANDA",
+                "ip": [
+                    10,
+                    234,
+                    238,
+                    47
+                ]
+            }
+        },
+        {
+            "asset_name": "ROYAL FELINE",
+            "asset_type": "File",
+            "owner": "TP8982",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MODERATE",
+                        "MODERATE",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "ANGRY EGRET",
+                "ip": [
+                    10,
+                    234,
+                    121,
+                    21
+                ]
+            }
+        }
+    ]
+}
